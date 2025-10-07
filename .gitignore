@@ -1,0 +1,5 @@
+# Ignore Rust/Cargo build artifacts
+target/
+
+# Do not commit Cargo.lock for library crates
+Cargo.lock

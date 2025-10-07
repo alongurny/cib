@@ -1,0 +1,16 @@
+[package]
+name = "cib"
+version = "0.1.2"
+edition = "2024"
+license = "MIT"
+description = "proc-macros for crate cib"
+repository = "https://github.com/alongurny/cib"
+homepage = "https://github.com/alongurny/cib"
+documentation = "https://docs.rs/cib"
+
+[dependencies]
+cib-derive = { version = "0.1.2", optional = true }
+
+[features]
+default = []
+derive = ["cib-derive"]

@@ -1,0 +1,11 @@
+[workspace]
+members = ["cib", "cib-derive"]
+resolver = "2"
+
+[workspace.lints]
+rust.warnings = "deny"
+
+[workspace.lints.clippy]
+all = "deny"
+pedantic = "allow"
+nursery = "deny"

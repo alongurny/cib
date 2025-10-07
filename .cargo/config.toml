@@ -1,0 +1,5 @@
+[alias]
+# `cargo lint` runs clippy on the whole workspace with strict settings.
+lint = "clippy --workspace --all-targets --all-features -- -D warnings -D clippy::all"
+fmt-pedantic = "fmt -- --config-path rustfmt.toml"
+clippy-pedantic = "clippy --all -- -D warnings -W clippy::pedantic"
